@@ -29,6 +29,15 @@ The project includes the Arduino code itself in `app.ino`, along with three head
 
 Please rename each of these without the `-template` suffix and customize them to suit your specific environment.
 
+## Libraries Used
+
+* [OneWire](https://www.pjrc.com/teensy/td_libs_OneWire.html) v2.3.4
+* [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library) v3.8.0
+* ESP32 v1.0.4
+  * [WiFi](https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi)
+  * [WiFiClientSecure](https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFiClientSecure)
+* [PubSubClient](https://github.com/knolleary/pubsubclient) v2.7
+
 ## See Also
 
 * [ThingStack](https://github.com/edsw/ThingStack) – The AWS CDK Python project that I created to provision AWS IoT things and their corresponding device certificates.
