@@ -29,6 +29,12 @@ The project includes the Arduino code itself in `app.ino`, along with three head
 
 Please rename each of these without the `-template` suffix and customize them to suit your specific environment.
 
+Please also note the definition below which refers to my temperature sensor being connected to GPIO 15. Your value may be different.
+
+```
+#define ONE_WIRE_BUS 15
+```
+
 ## Libraries Used
 
 * [OneWire](https://www.pjrc.com/teensy/td_libs_OneWire.html) v2.3.4
