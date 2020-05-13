@@ -37,7 +37,7 @@ Please also note the definition below which refers to my temperature sensor bein
 
 ## Libraries Used
 
-* [OneWire](https://www.pjrc.com/teensy/td_libs_OneWire.html) v2.3.4
+* [OneWire](https://github.com/PaulStoffregen/OneWire) v2.3.5
 * [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library) v3.8.0
 * ESP32 v1.0.4
   * [WiFi](https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi)
